@@ -1,6 +1,6 @@
 # Site settings
-title_left    : "wonwinnn's "
-title_right   : "blog" # default: ""
+title_left    : "WONWINNN'S "
+title_right   : "BLOG" # default: ""
 description   : "Hello world!"
 keywords      : ""
 url           : https://wonwinnn.github.io # site url
