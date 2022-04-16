@@ -18,6 +18,8 @@ postshare_enabled : false
 # Build settings
 permalink   : /:year/:title/
 markdown    : kramdown
+kramdown:
+  math_engine: katex
 highlighter : rouge
 
 source      : ./
