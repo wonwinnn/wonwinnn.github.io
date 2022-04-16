@@ -4,7 +4,7 @@ title: "Hello world!"
 comments: false
 description: "Test"
 keywords: "dummy content"
-author: Wonwinnn
+author: wonwinnn
 ---
 
  Hello world!!!  
@@ -13,5 +13,5 @@ author: Wonwinnn
  $$ e^{i\pi} + 1 = 0 $$  
 
  Test image!  
- ![](/images/github.jpg)
+ <img src=/images/github.jpg height=250 />
 
