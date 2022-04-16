@@ -1,5 +1,5 @@
 # Site settings
-title_left    : "Wonwinnn's "
+title_left    : "wonwinnn's "
 title_right   : "blog" # default: ""
 description   : "Hello world!"
 keywords      : ""
@@ -30,7 +30,7 @@ sass:
 
 # Author settings
 author:
-  name     : "Wonwinnn"
+  name     : "wonwinnn"
 
 plugins:
   - jekyll-sitemap
