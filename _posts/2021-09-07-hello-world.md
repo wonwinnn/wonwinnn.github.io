@@ -13,5 +13,5 @@ author: wonwinnn
  $$ e^{i\pi} + 1 = 0 $$  
 
  Test image!  
- <img src=/images/github.jpg height=250></img>
+ <img src="/images/github.jpg" height="250">
 
