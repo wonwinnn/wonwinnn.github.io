@@ -19,6 +19,6 @@ The principal point refers to the intersection of optical axis and image plane. 
 
 ### References
 
-[1] R. I. Hartley and Sing Bing Kang, “Parameter-free radial distortion correction with centre of distortion estimation,” in *Tenth IEEE International Conference on Computer Vision (ICCV’05) Volume 1*, Beijing, China, 2005, pp. 1834-1841 Vol. 2. doi: 10.1109/ICCV.2005.184.
+[1] R. I. Hartley and Sing Bing Kang, "Parameter-free radial distortion correction with centre of distortion estimation," *Tenth IEEE International Conference on Computer Vision (ICCV'05) Volume 1*, 2005, pp. 1834-1841 Vol. 2, doi: 10.1109/ICCV.2005.184.
 
-[2] R. C. Willson and S. A. Shafer, "What is the center of the image?," Proceedings of IEEE Conference on Computer Vision and Pattern Recognition, 1993, pp. 670-671, doi: 10.1109/CVPR.1993.341035. 
+[2] R. C. Willson and S. A. Shafer, "What is the center of the image?," *Proceedings of IEEE Conference on Computer Vision and Pattern Recognition*, 1993, pp. 670-671, doi: 10.1109/CVPR.1993.341035.
