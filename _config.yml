@@ -1,7 +1,7 @@
 # Site settings
 title_left    : "WONWINNN'S BLOG"
 title_right   : "" # default: ""
-description   : "HI!"
+description   : "START"
 keywords      : ""
 url           : https://wonwinnn.github.io # site url
 baseurl       : "" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
