@@ -7,11 +7,11 @@ keywords: "camera model"
 author: wonwinnn
 ---
 
-This post concerns on some general concepts in camera models. 
+This post concerns on some general concepts in camera models. Please correct me if I’m mistaken. 
 
 ### Projection & unprojection functions
 
-An intuitive way to "see" how a camera model works is to obtain an undistorted image from the original distorted one. However, the undistorted image does not reflect the relationship between 3D points and image points directly. To connect 2D and 3D,  the normalized camera plane is needed to get rid of scale ambiguity.  A projection function describes the mapping from normalized camera plane to image plane. And a unprojection function describes the inverse mapping. These two functions make up a camera model. 
+An intuitive way to "see" how a camera model works is to obtain an undistorted image from the original distorted one. However, the undistorted image does not reflect the relationship between 3D points and image points directly. To connect 2D and 3D,  the normalized camera plane (or the unit central projective sphere in some fisheye camera models) is needed to get rid of scale ambiguity.  A projection function describes the mapping from normalized camera plane to image plane. And a unprojection function describes the inverse mapping. These two functions make up a camera model. 
 
 ### Distortion center & principal point
 
