@@ -49,13 +49,13 @@ All normal matrices are diagonalizable.
 
 Real symmetric matrices can be classified according to the sign of their eigenvalues $$\lambda_{i}$$:
 
-$$ \begin{aligned} \lambda_{i} > 0, \forall i \quad positive \ definite \end{aligned}$$
+$$ \lambda_{i} > 0, \forall i \quad positive \ definite $$  
 
-$$ \lambda_{i} \geq 0, \forall i \quad positive \ semi-definite$$
+$$ \lambda_{i} \geq 0, \forall i \quad positive \ semi-definite $$  
 
-$$ \lambda_{i} < 0, \forall i \quad negative definite$$
+$$ \lambda_{i} < 0, \forall i \quad negative definite $$  
 
-$$ otherwise \quad indefinite$$
+$$ otherwise \quad indefinite $$  
 
 The determinant is equal to the product of the eigenvalues, thus a positive definite matrix is non-singular.
 
