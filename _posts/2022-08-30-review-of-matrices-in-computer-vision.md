@@ -33,13 +33,13 @@ In Peter Corke's book it is said that "...the matrix is skew-symmetric or anti-s
 
 If matrix *A* is orthogonal, then $$ A^{-1} = A^T $$.  
 
-It can be seen that an orthogonal matrix must be non-singular ($ det(A) \neq 0$) and invertible. Actually, The determinant of an orthogonal matrix is either +1 or −1.
+It can be seen that an orthogonal matrix must be non-singular ($$ det(A) \neq 0$$) and invertible. Actually, The determinant of an orthogonal matrix is either +1 or −1.
 
 The column vectors (and row vectors) of an orthogonal matrix must be of unit length and orthogonal to each other. This property is useful in focal length estimation [4].
 
 #### Normal
 
-A matrix *A* is normal if it satisfies the equation $ A^TA = AA^T $.
+A matrix *A* is normal if it satisfies the equation $$ A^TA = AA^T $$.
 
 All symmetric, skew-symmetric and orthogonal matrices are normal matrices.
 
@@ -47,9 +47,9 @@ All normal matrices are diagonalizable.
 
 #### Positive definite / semi-definite
 
-Real symmetric matrices can be classified according to the sign of their eigenvalues $\lambda_{i}$:
+Real symmetric matrices can be classified according to the sign of their eigenvalues $$\lambda_{i}$$:
 
-$$ \lambda_{i} > 0, \forall i \quad positive \ definite$$
+$$ \begin{aligned} \lambda_{i} > 0, \forall i \quad positive \ definite \end{aligned}$$
 
 $$ \lambda_{i} \geq 0, \forall i \quad positive \ semi-definite$$
 
@@ -59,9 +59,9 @@ $$ otherwise \quad indefinite$$
 
 The determinant is equal to the product of the eigenvalues, thus a positive definite matrix is non-singular.
 
-Lemma (Least Squares and Postive Semidefiniteness) : Let $ A \in \mathbb{R}^{n \times m} $ be an $ n \times m$  matrix with $ n > m $. The matrix $ B = A^TA $  is positive semidefinite. If further the columns of $A$  are linearly independent, then the matrix $B$ is positive definite [5].
+Lemma (Least Squares and Postive Semidefiniteness) : Let $$ A \in \mathbb{R}^{n \times m} $$ be an $$ n \times m$$  matrix with $$ n > m $$. The matrix $$ B = A^TA $$  is positive semidefinite. If further the columns of $$A$$  are linearly independent, then the matrix $B$ is positive definite [5].
 
-Theorem (Cholesky Decomposition) : Any positive definite matrix $ B \in \mathbb{R}^{n \times n} $ can be factorized uniquely as where $ L \in \mathbb{R}^{n \times n} $ is a lower triangular matrix with positive entries on the diagonal [5].
+Theorem (Cholesky Decomposition) : Any positive definite matrix $$ B \in \mathbb{R}^{n \times n} $$ can be factorized uniquely as where $$ L \in \mathbb{R}^{n \times n} $$ is a lower triangular matrix with positive entries on the diagonal [5].
 
 ### Applications in computer vision
 
