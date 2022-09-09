@@ -59,7 +59,7 @@ Real symmetric matrices can be classified according to the sign of their eigenva
 
 The determinant is equal to the product of the eigenvalues, thus a positive definite matrix is non-singular.
 
-Lemma (Least Squares and Postive Semidefiniteness) : Let $$ A \in \mathbb{R}^{n \times m} $$ be an $$ n \times m$$  matrix with $$ n > m $$. The matrix $$ B = A^TA $$  is positive semidefinite. If further the columns of $$A$$  are linearly independent, then the matrix $B$ is positive definite [5].
+Lemma (Least Squares and Postive Semidefiniteness) : Let $$ A \in \mathbb{R}^{n \times m} $$ be an $$ n \times m$$  matrix with $$ n > m $$. The matrix $$ B = A^TA $$  is positive semidefinite. If further the columns of $$A$$  are linearly independent, then the matrix $$B$$ is positive definite [5].
 
 Theorem (Cholesky Decomposition) : Any positive definite matrix $$ B \in \mathbb{R}^{n \times n} $$ can be factorized uniquely as where $$ L \in \mathbb{R}^{n \times n} $$ is a lower triangular matrix with positive entries on the diagonal [5].
 
